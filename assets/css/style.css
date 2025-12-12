@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+/* common */
+a {
+  text-decoration: none;
+}
+/* .main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* header */
+.hearder .fixed {
+  position: sticky;
+}
+.hearder .body-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0.8rem;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.278);
+}
+.nav ul {
+  display: flex;
+  margin-right: 30rem;
+  margin-left: 10rem;
+}
+.nav a {
+  position: relative;
+  color: blue;
+  font-size: 2rem;
+  padding: 0.8rem 2.1rem;
+}
+.nav a:hover {
+  color: black;
+  text-shadow: 0.1rem 0 0 currentColor;
+}
+.active a {
+  color: black;
+}
+.logo {
+  margin-right: 1rem;
+}
+.name-in-nav {
+  margin-right: 10rem;
+  font-size: 1.8rem;
+}
+.nav li.active a::after {
+  position: absolute;
+  left: 2.1rem;
+  bottom: 0.6rem;
+  display: block;
+  content: "";
+  width: 1.2rem;
+  height: 0.2rem;
+  border-radius: 1px;
+  background: black;
+}

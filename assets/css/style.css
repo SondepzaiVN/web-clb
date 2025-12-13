@@ -34,9 +34,7 @@ h4 {
   line-height: 1.4;
 }
 /* .main-content {
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 } */
 .line-clamp {
   display: -webkit-box;
@@ -61,8 +59,10 @@ h4 {
   top: 0;
   background-color: #fff;
   z-index: 100;
+  width: 100%;
 }
 .header .body-header {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,10 +143,10 @@ h4 {
 }
 .hero .content-block h1 {
   background: linear-gradient(135deg, #667eea 0%, #00a3fb 100%);
-  margin-top: 10rem;
+  margin-top: 11.05rem;
   font-size: 6.5rem;
   font-weight: 900;
-  margin-bottom: 2.4rem;
+  margin-bottom: 0.5rem;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom: 1rem;
@@ -154,7 +154,8 @@ h4 {
 .hero .content-block h2 {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 .hero .content-block h3 {
   font-size: 1.9rem;

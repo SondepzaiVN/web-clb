@@ -25,7 +25,8 @@ h3 {
   font-weight: 700;
   padding: 2rem 2rem 1.6rem 2rem;
 }
-h4 {
+h4,
+li {
   font-size: clamp(1.6rem, 6vw, 1.6rem);
   font-weight: 400;
   color: #666666;
@@ -216,5 +217,51 @@ h4 {
 }
 /* Thành tích */
 .content-2 {
-  background: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(
+    180deg,
+    rgba(232, 232, 234, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.content-2 .main-content {
+  width: 115rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thanh-tich {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.content-2 .title-1 {
+  margin-top: 2.5rem;
+}
+.thanh-tich .year {
+  background: linear-gradient(135deg, #667eea 0%, #00a3fb 100%);
+  font-size: 6.5rem;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.thanh-tich .info {
+  width: 100%;
+  margin-left: 5rem;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 4rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.8rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+.thanh-tich .info h3 {
+  padding-top: 1rem;
+}
+.thanh-tich .info li {
+  color: #333;
+  font-weight: 450;
+  padding: 0rem;
+  padding-left: 2rem;
 }

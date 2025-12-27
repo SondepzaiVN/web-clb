@@ -265,3 +265,79 @@ h4 {
   font-weight: 450;
   padding: 0rem 0 0 2rem;
 }
+/* footer */
+.footer-block {
+  background-color: #fff;
+  height: 50rem;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+}
+.footer-block .main-content {
+  width: 115rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer--content1 {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d0;
+}
+.footer--info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.footer--logo {
+  display: flex;
+  align-items: center;
+}
+.footer--info--text h4 {
+  font-size: clamp(1.9rem, 6vw, 1.6rem);
+  padding: 1.7rem 0rem 1.7rem 0rem;
+}
+.footer--sc {
+  display: flex;
+  gap: 1rem;
+  color: #666666;
+  font-size: 1.9rem;
+}
+.fa-facebook:hover {
+  color: #003bfb;
+}
+.fa-youtube:hover {
+  color: rgb(225, 26, 26);
+}
+.footer-link {
+  width: 45%;
+}
+.footer--link1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer--link1 h4 {
+  font-size: clamp(2.2rem, 6vw, 1.6rem);
+  padding: 4rem 0rem 1.7rem 0rem;
+  margin: 0rem;
+  color: black;
+  font-weight: 500;
+}
+.footer--link1 ul {
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-size: 2rem;
+}
+.footer--content2 {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer--content2 h4 {
+  font-size: clamp(1.8rem, 6vw, 1.6rem);
+  padding: 0rem;
+}

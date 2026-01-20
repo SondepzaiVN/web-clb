@@ -8,7 +8,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Inter", sans-serif;
-  min-width: 1150px;
+  /* min-width: 1150px; */
 }
 /* common */
 a {
@@ -25,15 +25,17 @@ h2 {
 h3 {
   font-size: clamp(3.2rem, 6vw, 3.2rem);
   font-weight: 700;
-  padding: 2rem 2rem 1.6rem 2rem;
+  padding: 2rem 2rem 0rem 2rem;
+  margin-bottom: 1.6rem;
 }
 h4 {
   font-size: clamp(1.6rem, 6vw, 1.6rem);
   font-weight: 400;
   color: #666666;
   margin: 0 auto;
-  padding: 0rem 1rem 2rem 2rem;
+  padding: 0rem 1rem 0rem 2rem;
   line-height: 1.4;
+  margin-bottom: 2rem;
 }
 /* .main-content {
   width: 100%;
@@ -137,9 +139,10 @@ h4 {
   box-shadow: 0 0.8rem 3.2rem rgba(0, 0, 0, 0.1);
   border-radius: 40px;
   transition: 0.5s;
+  transform: translateY(-7.5rem);
 }
 .hero .main-content:hover {
-  transform: translateY(-1.6rem);
+  transform: translateY(-9.1rem);
 }
 .hero .main-content .content-block {
   display: flex;
